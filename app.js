@@ -13,7 +13,6 @@ $(document).ready(function(){
             tedad_shance = Math.floor(Math.log2(max_nam));
             $('.tedad_shance').text(tedad_shance);
         }
-        // console.log(target , tedad_shance);
     })
     $('.guess-btn').click(function(){
         let my_guss = $('.inp-guess').val();
